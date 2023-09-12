@@ -1,0 +1,79 @@
+/* login.css */
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to top, #ff5e00, #3f3f3f7a);
+  }
+  
+  .login-form {
+    background: #ffffff3a;
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    text-align: center;
+    width: 300px;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .login-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  .Signup-button {
+      width: 100%;
+      padding: 10px;
+      background-color: #222121;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+      margin-top: 10px;
+      
+    }
+    .signLink{
+        color: #fff;
+        text-decoration: none;
+     }
+  
+  .login-button:hover {
+    background-color: #45a049;
+  }
+
+  @media (max-width: 768px) {
+    .login-form {
+        padding: 20px;
+    }
+  .login-input {
+    width: 279px;
+}
+
+}

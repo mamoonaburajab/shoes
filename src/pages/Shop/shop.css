@@ -1,0 +1,16 @@
+/* Shop.css */
+
+.shop-container {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap:60px;
+    padding: 20px;
+    flex-wrap: wrap;
+    /* width: 80%; */
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Adjust the grid and card styles as needed */
+  

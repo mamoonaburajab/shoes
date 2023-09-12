@@ -1,0 +1,100 @@
+/* Card.module.css */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgb(53, 53, 53);
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+    overflow: hidden;
+    color: #000;
+}
+
+.card:hover {
+    transform: translateY(-20px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: rgba(238, 200, 95, 0.979);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.9s ease-out;
+    -webkit-transition: transform 0.9s ease-out;
+    -moz-transition: transform 0.9s ease-out;
+    -ms-transition: transform 0.9s ease-out;
+    -o-transition: transform 0.9s ease-out;
+}
+
+.img:hover {
+    transform: scale(2.1);
+    -webkit-transform: scale(1.7);
+    -moz-transform: scale(2.1);
+    -ms-transform: scale(2.1);
+    -o-transform: scale(2.1);
+}
+
+.NameModel {
+    font-size: 1.3rem;
+    margin-top: 30px;
+    /* margin-bottom: 10px; */
+    color: #333;
+    cursor: pointer;
+}
+
+.price {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: aqua;
+}
+
+.AddToCard {
+    background-color: #cfc9c9;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    text-decoration: none;
+}
+
+.LinkBtn {
+    color: #000;
+    text-decoration: none;
+}
+
+.links {
+    margin-top: 10px;
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.2s ease;
+
+    &:hover {
+        color: #000;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        padding: 15px;
+
+        h2 {
+            font-size: 1rem;
+        }
+
+        p {
+            font-size: 0.9rem;
+        }
+    }
+}

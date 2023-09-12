@@ -1,0 +1,139 @@
+/* Footer.css */
+.footer {
+    background-image: linear-gradient(to right, rgba(110, 108, 108, 0.74), rgb(131, 40, 40));
+
+    color: #000000cc;
+    padding: 40px 0px 30px 0;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* margin-top: 260px; */
+    height: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-evenly;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 200px;
+}
+
+.footer-logo h2 {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0;
+}
+
+.footer-nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+    color: #d68047;
+}
+
+.footer-social {
+    display: flex;
+    gap: 20px;
+    font-size: 1.5rem;
+}
+
+.footer-social a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+    color: #d68047;
+}
+
+.footer-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-text p {
+    font-size: 0.9rem;
+}
+
+/* Additional styling for phone, logo, and copyright */
+.phone {
+    color: #000000;
+    font-size: 1.2rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.copyright {
+    font-size: 1rem;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+.container {
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 0; */
+}
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    }
+    .footer {
+        position: relative;
+        display: flex;
+        height: 200px;
+        flex-direction: column;
+        margin-bottom: 0;
+        bottom: 0;
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+       
+
+    }
+    .footer {
+        position: relative;
+        display: flex;
+        height: 200px;
+        flex-direction: column;
+        margin-bottom: 0;
+        bottom: 0;
+        margin-top: 0;
+    }
+  }
